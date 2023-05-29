@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.0.final using JasperReports Library version 6.20.0-2bc7ab61c56f459e8176eb05c7705e145cd400ad  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="ContactSubreport" pageWidth="296" pageHeight="200" columnWidth="276" leftMargin="10" rightMargin="10" topMargin="10" bottomMargin="10" uuid="5b1d1a6c-bebe-4bf6-8d1d-ece8f98d3802">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="33" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement x="0" y="0" width="276" height="30" uuid="815b0a57-c824-4901-a0a3-c658e07a950a">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="DejaVu Sans" size="14"/>
+				</textElement>
+				<text><![CDATA[Contact]]></text>
+			</staticText>
+			<line>
+				<reportElement mode="Opaque" x="0" y="30" width="276" height="1" forecolor="#ABEDC9" uuid="d13ef076-4dfb-4489-9de6-806db17059d6">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="3.0"/>
+				</graphicElement>
+			</line>
+		</band>
+	</title>
+	<detail>
+		<band height="125" splitType="Stretch">
+			<image>
+				<reportElement x="5" y="5" width="10" height="10" uuid="88bf21cc-d57f-47fc-ad63-3cedaf69a0a3">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["/images/home.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="20" y="0" width="256" height="20" uuid="d482b3d6-a195-4fe2-9475-c52c8b4f0748">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Belgrade, Serbia]]></text>
+			</staticText>
+			<image>
+				<reportElement x="5" y="25" width="10" height="10" uuid="970415aa-e50f-485c-b8da-c765e9a469a9">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["/images/phone-call.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="20" y="20" width="256" height="20" uuid="1a27e9de-ef15-4698-8a40-cfa176351c36">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[+38163442359]]></text>
+			</staticText>
+			<image>
+				<reportElement x="5" y="45" width="10" height="10" uuid="50381ce3-380d-4d03-843b-56b2e3c44487">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["/images/mail.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="20" y="40" width="256" height="20" uuid="53c06f11-a548-47bb-82c9-b2ea3477d875">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[jzivovic96@gmail.com]]></text>
+			</staticText>
+			<image>
+				<reportElement x="5" y="65" width="10" height="10" uuid="0be7c7f0-535b-4baf-925f-beba76c81986">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["/images/linkedin.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="20" y="60" width="256" height="20" uuid="f3c5f422-9625-4af9-838f-8464160cbe9d">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[https://www.linkedin.com/in/jelena-zivovic]]></text>
+			</staticText>
+			<image>
+				<reportElement x="5" y="85" width="10" height="10" uuid="2b9b487a-3c25-41e8-ad87-87c6874d76a3">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["/images/github.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="20" y="80" width="256" height="20" uuid="41479e3e-cd7e-4256-a496-2944d1b22df9">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[https://github.com/pragmaticbutton]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>
