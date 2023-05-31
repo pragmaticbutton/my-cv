@@ -68,7 +68,7 @@
 				<subreportExpression><![CDATA["ContactSubreport.jasper"]]></subreportExpression>
 			</subreport>
 			<subreport>
-				<reportElement x="0" y="150" width="296" height="100" uuid="6d89f236-6b35-4ece-8d4a-0996f606bc21">
+				<reportElement x="-1" y="564" width="296" height="100" uuid="6d89f236-6b35-4ece-8d4a-0996f606bc21">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
@@ -76,6 +76,16 @@
 				</reportElement>
 				<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.JREmptyDataSource()]]></dataSourceExpression>
 				<subreportExpression><![CDATA["EducationSubreport.jasper"]]></subreportExpression>
+			</subreport>
+			<subreport>
+				<reportElement x="0" y="150" width="296" height="100" uuid="46adeaa0-dbe6-4a95-b711-fca2c0a7cf38">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.JREmptyDataSource()]]></dataSourceExpression>
+				<subreportExpression><![CDATA["SkillsSubreport1.jasper"]]></subreportExpression>
 			</subreport>
 		</band>
 	</detail>

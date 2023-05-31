@@ -56,7 +56,7 @@
 				<text><![CDATA[Bachelor of Informatics]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="40" y="20" width="236" height="20" uuid="75a50905-3019-4be6-982b-a1f432f57638">
+				<reportElement x="35" y="20" width="241" height="20" uuid="75a50905-3019-4be6-982b-a1f432f57638">
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -66,7 +66,7 @@
 				<text><![CDATA[Faculty of Mathematics, Belgrade, Serbia]]></text>
 			</staticText>
 			<image>
-				<reportElement x="25" y="25" width="10" height="10" uuid="133e9dc6-dc44-4834-bbe6-3948e12d2490">
+				<reportElement x="20" y="25" width="10" height="10" uuid="133e9dc6-dc44-4834-bbe6-3948e12d2490">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -75,7 +75,7 @@
 				<imageExpression><![CDATA["/images/graduation-hat.png"]]></imageExpression>
 			</image>
 			<image>
-				<reportElement x="25" y="45" width="10" height="10" uuid="375c82b1-3883-428a-94c0-0f856f48571b">
+				<reportElement x="20" y="45" width="10" height="10" uuid="375c82b1-3883-428a-94c0-0f856f48571b">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -84,7 +84,7 @@
 				<imageExpression><![CDATA["/images/graduation-hat.png"]]></imageExpression>
 			</image>
 			<staticText>
-				<reportElement x="40" y="40" width="236" height="20" uuid="43c4d559-72fe-4dbf-b749-169f5e558996">
+				<reportElement x="35" y="40" width="241" height="20" uuid="43c4d559-72fe-4dbf-b749-169f5e558996">
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
