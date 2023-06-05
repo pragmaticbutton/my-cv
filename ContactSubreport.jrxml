@@ -35,7 +35,8 @@
 		</band>
 	</title>
 	<detail>
-		<band height="125" splitType="Stretch">
+		<band height="100" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<image>
 				<reportElement x="5" y="5" width="10" height="10" uuid="88bf21cc-d57f-47fc-ad63-3cedaf69a0a3">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>

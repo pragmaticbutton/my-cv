@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.0.final using JasperReports Library version 6.20.0-2bc7ab61c56f459e8176eb05c7705e145cd400ad  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="ContactSubreport" pageWidth="296" pageHeight="500" columnWidth="276" leftMargin="10" rightMargin="10" topMargin="10" bottomMargin="10" uuid="5b1d1a6c-bebe-4bf6-8d1d-ece8f98d3802">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="33" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="276" height="30" uuid="815b0a57-c824-4901-a0a3-c658e07a950a">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="DejaVu Sans" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Work experience:]]></text>
+			</staticText>
+			<line>
+				<reportElement mode="Opaque" x="0" y="30" width="276" height="1" forecolor="#ABEDC9" uuid="d13ef076-4dfb-4489-9de6-806db17059d6">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="3.0"/>
+				</graphicElement>
+			</line>
+		</band>
+	</title>
+	<detail>
+		<band height="405" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<image>
+				<reportElement x="5" y="5" width="10" height="10" uuid="5d2332df-03f2-4db8-a032-32d778c4c002">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["/images/dot.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="20" y="0" width="150" height="20" uuid="269b3fea-41a4-475c-8afb-dc95aac036be">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Backend developer]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="20" width="256" height="20" uuid="0cb8a99c-f157-458d-b605-773a2fb7fedb">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="9" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Sedecom Solutions, Belgrade | October 2020 - present]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="40" width="246" height="15" uuid="29daf4d1-acde-4c09-b84d-d6737c52c6c7">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Developed and maintained RESTful and gRPC ]]></text>
+			</staticText>
+			<image>
+				<reportElement x="15" y="42" width="10" height="10" uuid="c439e4e3-6d94-403e-aef3-9fddfaf5eedb">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["/images/dot.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="30" y="55" width="246" height="15" uuid="3fbcc5b7-c818-4ac3-a88e-78cf7a106048">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[API for calculating commission and generating]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="70" width="246" height="15" uuid="00e60633-7998-4eab-9426-0a70c6dc6ebd">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[credit notes using Golang and CockroachDB]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="85" width="246" height="15" uuid="d3fc2b6c-5a86-417d-a647-b26569a6a3e9">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Collaborated on development of RESTful API]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="100" width="246" height="15" uuid="19586e10-f7ea-463f-ad28-cf79f08a9d90">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[for registering SIM cards for German citizens]]></text>
+			</staticText>
+			<image>
+				<reportElement x="15" y="132" width="10" height="10" uuid="393d2515-5411-4dbb-9c19-9e822a7e0144">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["/images/dot.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="30" y="115" width="246" height="15" uuid="5da3f4f1-d1af-4f4d-8f7d-e4c5dae9a634">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[using Golang, MySQL, Kafka and Redis]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="130" width="246" height="15" uuid="281c1c12-88b5-473c-a245-1cab23ef1044">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Developed and maintained RESTful and gRPC]]></text>
+			</staticText>
+			<image>
+				<reportElement x="15" y="87" width="10" height="10" uuid="513aedbb-bd90-4f71-883a-2de7a4c3241a">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["/images/dot.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="30" y="145" width="246" height="15" uuid="17729b52-8661-444b-8d7c-c8a6c3f5c41f">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[rendering API for dynamic generation of reports]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="160" width="246" height="15" uuid="cd0ed659-f271-473b-8be6-a0d2e7abca5b">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[using Java, Spring Boot, Jasper Reports API and]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="175" width="246" height="15" uuid="fc7a8a65-cca5-4719-a056-5136af88dda1">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[MongoDB]]></text>
+			</staticText>
+			<image>
+				<reportElement x="15" y="237" width="10" height="10" uuid="e36516e6-406e-4f4d-a540-01c5fdd06859">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["/images/dot.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="30" y="235" width="246" height="15" uuid="9a202d5b-1c65-4d3f-8c2a-c056a5383f37">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Implemented authentication and authorization]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="250" width="246" height="15" uuid="a2dcf749-8558-40de-9a98-ab36bee45018">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[mechanisms using JSON Web Tokens (JWT) ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="265" width="246" height="15" uuid="bc44de23-3025-4a51-b960-911cdb4b52db">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[with Keycloak to secure API endpoints]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="280" width="246" height="15" uuid="21f40c0f-b6ef-4079-8af4-21aae2c0e592">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Collaborated with the frontend team to ensure]]></text>
+			</staticText>
+			<image>
+				<reportElement x="15" y="282" width="10" height="10" uuid="49c2d76a-3330-4c24-9fd2-e04703d22a90">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["/images/dot.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="30" y="295" width="246" height="15" uuid="11f74cc1-2589-4988-ad51-9f1cc8a0bcdc">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[integration of the APIs into the user interface]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="190" width="246" height="15" uuid="ca673652-aea0-46a9-9a5e-1e5e1c93435e">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Worked on development and testing of RESTful]]></text>
+			</staticText>
+			<image>
+				<reportElement x="15" y="192" width="10" height="10" uuid="cd7eb8e9-d126-453d-8078-ca153ea0ebc4">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["/images/dot.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="30" y="205" width="246" height="15" uuid="0b9cb391-48aa-488b-8c7c-4d9dc23b693e">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[API for searching and buying bus and train]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="220" width="246" height="15" uuid="347fb2df-0a0c-4c9e-9bbd-ad729a5572f8">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[tickets using Java, Spring Boot and MySQL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="310" width="246" height="15" uuid="965d3463-cf0b-42fd-9310-1917d8d5e666">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Created JMeter load tests and leveraged the]]></text>
+			</staticText>
+			<image>
+				<reportElement x="15" y="312" width="10" height="10" uuid="ece9c6ae-62ee-48dc-b35f-bb46cdb40211">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["/images/dot.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="30" y="325" width="246" height="15" uuid="68baf2e4-33e0-4cce-b53e-86021922988f">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[insights gained from the results to enhance the]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="340" width="246" height="15" uuid="79477745-1a6c-4bf5-820e-0b48d445a669">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[performance of the application]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="355" width="246" height="15" uuid="b22a3863-b42d-46db-a30c-7e624c2a6400">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Streamlined local development by utilizing]]></text>
+			</staticText>
+			<image>
+				<reportElement x="15" y="357" width="10" height="10" uuid="4e6b5f3b-0815-4726-8ef1-586c14133d52">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["/images/dot.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="30" y="370" width="246" height="15" uuid="0e360200-40cf-40cd-8270-a5b7791cbea3">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Docker Compose and employed Docker to]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="385" width="246" height="15" uuid="0398dacc-b233-4da5-892c-431e573e24bf">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[create containerized images of applications]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>
